@@ -181,9 +181,7 @@ public void printGrid() {
 			printGrid();
 		} while ((P1.row -1 != boatRow) || (P1.column -1 != boatColumn));
 	}
-	// HAVE TO CREATE SCORE COUNTING AND HAVE TO CHECK FOR REPEATED PLAY
-	
-	//################ TEMPORARY MAIN METHOD - FOR TEST ONLY###########3
+
 	
 
 }
