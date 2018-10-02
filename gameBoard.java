@@ -65,23 +65,6 @@ public class gameBoard {
 		printGrid();
 	}
 	
-	@Override //probably not gonna use this one
-	public String toString() {
-				
-		String toPrint = "";
-		
-	for(int i = 0;i<gridRow;i++) {
-		
-		for(int j = 0;j<gridColumn;j++) {
-			grid [i][j]= "_|";			
-			toPrint = toPrint + grid[i][j];
-			} 
-		toPrint+="\n";
-			}
-		return toPrint;	
-		
-	}
-	
 public boolean checkFire(int a, int b) {
 	if((a - 1)== boatRow && (b - 1)==boatColumn) {
 		return true;
